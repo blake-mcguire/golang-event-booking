@@ -17,7 +17,7 @@ func main() {
 	server := gin.Default() //starts an instance of the engine 
 	routes.RegisterRoutes(server)
 	server.Run(":8080") //localhost:8080 its saying this server is running on this port
-	server.PUT("/events/:id")
+
 }	
 
 
